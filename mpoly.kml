@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa85</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaa85</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffaa85</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaa85</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>MPoly</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-80.49265108586589,43.45171020071101,0 -80.49245278682358,43.45169054005919,0 -80.49249118834962,43.45222775441169,0 -80.492184835994,43.45169380515868,0 -80.49204311357973,43.45170691124518,0 -80.4919598023527,43.45229728952199,0 -80.49186932112706,43.45173228914194,0 -80.49172081007968,43.45172008451583,0 -80.49184783951601,43.45250727652352,0 -80.49202657787193,43.4524987171044,0 -80.49215981390141,43.45197400963022,0 -80.49248935556203,43.45249944633088,0 -80.49266231722861,43.45249944673505,0 -80.49265108586589,43.45171020071101,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1094"></atom:link>
+	</Placemark>
+</Document>
+</kml>
